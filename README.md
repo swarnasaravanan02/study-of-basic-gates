@@ -1,4 +1,7 @@
 ### study-of-basic-gates
+## NAME: SWARNA PRIYA S
+## REGISTER NO: 212225040447
+## DATE: 21.11.2026
 
 **AIM:** 
 
@@ -65,15 +68,49 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor ( y7,a,b);
+endmodule
+```
 
- Developed by: RegisterNumber: 
+ Developed by: Pranav Krishna T RegisterNumber: 24006214
  
 **Logic symbol & Truthtable**
 
+
+
+
+![Screenshot 2024-12-17 130844](https://github.com/user-attachments/assets/2c6f5703-6398-409a-b6c0-69dcd56842e7)
+
+
 **RTL realization Output:** 
+
+
+
+
+
+![Screenshot 2024-12-17 130853](https://github.com/user-attachments/assets/f30396b6-85e9-4217-8678-bdb9eb0c6ade)
+
+
 
 **RTL**
 
+
+
+
+![Screenshot 2024-12-17 130600](https://github.com/user-attachments/assets/cd179847-e5a3-4b14-b551-85fbd2ac4099)
+
+
 **Result:**
+Program for logic gates and verify its truth table in quartus using Verilog programming
 
 
